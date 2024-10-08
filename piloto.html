@@ -19,8 +19,6 @@
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
-
-    <!-- Incorporamos el elemento header TODO, ya que h1 y nav están en todas las paginas-->
    <header>
    <h1>F1 Desktop</h1>
     <nav>
@@ -34,17 +32,21 @@
         <a href="juegos.html" title="Juegos">Juegos</a>
     </nav>
     <main>
-    <h2>Pierre Gasly</h2>
-    </header> 
+    </header>
+    <h2>Pierre Gasly</h2> 
     <p>En este apartado hablaremos sobre el reconocido piloto de Formula 1 Pierre Gasly</p>
     <video src="/multimedia/gaslyvideo_Adf0XUYx.mp4" controls="" preload="auto"></video>
-
-    <img alt="Pierre Gasly Foto " src="multimedia/pierre-gasly-alpine.jpg" >
+     
     <picture>
         <source media="(max-width: 465px)" srcset="multimedia/pierre-gasly-alpine 300.jpg">
-        <source media="(max-width: 799px )" srcset="multimedia/pierre-gasly 400.jpg">
+        <source media="(max-width: 799px)" srcset="multimedia/pierre-gasly-alpine 400.jpg">
         <source media="(min-width: 800px)" srcset="multimedia/pierre-gasly-alpine 600.jpg">
+        <img alt="Pierre Gasly" src="multimedia/pierre-gasly-alpine.jpg">
     </picture>
+    <audio controls >
+        <source src="multimedia/pronunciation_fr_pierre_gasly.mp3" type="audio/mpeg"/>
+        <source src="multimedia/pronunciation_fr_pierre_gasly.ogg" type="audio/ogg"/>
+     </audio>
     <section>
     <h3>Datos Personales</h3>
     <p>
@@ -134,16 +136,20 @@
     <footer>
     <table>
         <caption> Resultados de la ultima temporada</caption>
-        <tr>
-            <th scope="col" id="Posicion final">Posición Final en clasificación</th>
-            <th scope="col" id="Poles">Poles</th>
-            <th scope="col" id="Podios">Podios</th>
-        </tr>
-        <tr>
-            <td headers="Posiion Final">11º</td>
-            <td headers="Poles">0</td>
-            <td headers="Podios">1</td>
-        </tr>
+
+        <tbody>
+            <tr>
+                <th scope="col" id="Posicion final">Posición Final en clasificación</th>
+                <th scope="col" id="Poles">Poles</th>
+                <th scope="col" id="Podios">Podios</th>
+            </tr>
+            <tr>
+                <td headers="Posiion Final">11º</td>
+                <td headers="Poles">0</td>
+                <td headers="Podios">1</td>
+            </tr>
+        </tbody>
+        
     </table>
     </footer>
     </article>
