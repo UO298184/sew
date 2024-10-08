@@ -1,1 +1,22 @@
 /* Eloy Rubio Suárez UO298184 */
+/*https://www.canva.com/colors/color-palettes/steel-sky-ridges/ */
+
+
+/* especificidad 001 */
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #c6f2f4;
+    color: #000;
+}
+
+h1{
+    color: #fff;
+    background-color: #174a6d ;
+    text-align: center;
+}
+nav{
+    background-color: #5dbdd3    ;
+}
+header{
+    background-color: #7cc0d4 ;
+}
